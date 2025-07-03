@@ -1,0 +1,15 @@
+<suite name="Functional">
+
+    <listeners>
+        <listener class-name="utility.ExtentReportManager" />
+    </listeners>
+    <test thread-count="2" name="Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TestAddition"/>
+            <class name="testCases.TestSubtraction"/>
+            <class name="testCases.TestMultiplication"/>
+            <class name="testCases.TestDivision"/>
+        </classes>
+    </test>
+</suite>

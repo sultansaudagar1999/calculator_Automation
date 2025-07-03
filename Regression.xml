@@ -1,0 +1,13 @@
+<suite name="Regression">
+
+    <listeners>
+        <listener class-name="utility.ExtentReportManager" />
+    </listeners>
+    <test thread-count="2" name="Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TestAllUiComponentsClickable"/>
+            <class name="testCases.TestMultistepAddMultiply"/>
+        </classes>
+    </test>
+</suite>
