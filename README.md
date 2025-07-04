@@ -1,3 +1,4 @@
+# Go through pdf file attached in repo for more info.
 ** How to Clone and Run the Project **
 
 
